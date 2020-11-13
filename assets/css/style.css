@@ -144,7 +144,7 @@ a:focus {text-decoration: none;}
 }
 .section__heading {
     color: #3dbcf3;
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
@@ -170,8 +170,8 @@ a:focus {text-decoration: none;}
 }
 .top-banner img { max-width: 300px;}
 .top-banner h2 {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 3rem;
+  line-height: 3rem;
   margin: 0;
 }
 .top-banner h1 {
