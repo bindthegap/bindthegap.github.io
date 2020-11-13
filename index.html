@@ -7,17 +7,17 @@
   <title>Bind The Gap</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
-    <meta name="keywords" content="Haskell, Functional progarmming, FP">
+    <meta name="keywords" content="Haskell, Functional progarmming, FP, Tech, Digital Magazine, Tech news, newsletter">
     <meta name="author" content="Kowainik"/>
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Bind The Gap" />
     <meta property="og:title" content="Bind The Gap" />
-    <meta property="og:description" content="Advent of Haskell Blog post Challenge 2020" />
+    <meta property="og:description" content="Monthly Digital Magazine about Functional Programming" />
     <meta property="og:url" content="https://bindthegap.news" />
     <meta property="og:image" content="assets/images/bindthegap-Logo.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Bind The Gap"" />
-    <meta name="twitter:description" content="Advent of Haskell Blog post Challenge 2020" />
+    <meta name="twitter:description" content="Monthly Digital Magazine about Functional Programming" />
     <meta name="twitter:image:src" content="https://bindthegap.news/assets/images/bindthegap-Logo.png" />
     <meta name="twitter:url" content="https://bindthegap.news" />
 
@@ -36,37 +36,39 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/book.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <nav class="row navbar navbar-default">
             <div class="col-12 col-sm-3 nav-parent">
-                <a class="nav-link" href="#foo">
+                <a class="nav-link" href="#about" data-toggle="elementscroll">
                     <div class="door door-left"></div>
-                    Foo
+                    About
                     <div class="door door-right"></div>
                 </a>
             </div>
             <div class="col-12 col-sm-3 nav-parent">
-                <a class="nav-link" href="#foo">
+                <a class="nav-link" href="#authors" data-toggle="elementscroll">
                     <div class="door door-left"></div>
-                    Foo
+                    Authors
                     <div class="door door-right"></div>
                 </a>
             </div>
             <div class="col-12 col-sm-3 nav-parent">
-                <a class="nav-link" href="#foo">
+                <a class="nav-link" href="#issues" data-toggle="elementscroll">
                     <div class="door door-left"></div>
-                    Foo
+                    Issues
                     <div class="door door-right"></div>
                 </a>
             </div>
             <div class="col-12 col-sm-3 nav-parent">
-                <a class="nav-link" href="#foo">
+                <a class="nav-link" href="#subscribe" data-toggle="elementscroll">
                     <div class="door door-left"></div>
-                    Foo
+                    Subscribe
                     <div class="door door-right"></div>
                 </a>
             </div>
@@ -79,7 +81,8 @@
     <div class="row">
       <div class="col-lg-6 col-md-8 col-sm-12 mx-auto text-center top-banner__content justify-content-center">
           <img class="img-fluid" src="assets/images/bindthegap-logo.png" alt="Bind the Gap Logo" />
-          <h2>Coming soon</h2>
+          <h2>Digital Magazine</h2>
+          <p>New look at modern Functional Programming</p>
       </div>
     </div>
   <div class="row train-all-container">
@@ -95,25 +98,26 @@
 
       <div class="train-car">
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
-        <div class="door"></div>
+        <div class="door d-left"></div><div class="door d-right"></div>
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
       </div>
 
       <div class="train-car">
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
-        <div class="door"></div>
+        <div class="door d-left"></div><div class="door d-right"></div>
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
       </div>
 
       <div class="train-car">
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
-        <div class="door"></div>
+
+        <div class="door d-left"></div><div class="door d-right"></div>
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
       </div>
 
       <div class="train-car">
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
-        <div class="door"></div>
+        <div class="door d-left"></div><div class="door d-right"></div>
         <div class="windows"> <div class="w-left"></div> <div class="w-right"></div> </div>
       </div>
       <div class="train-car end-car">
@@ -131,22 +135,209 @@
   </div>
 </section>
 
-<!-- Contact us -->
-<section class="section contact-us" id="contact-us-section">
+  <!-- About -->
+  <section class="section about dark-bg" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-12 mx-auto">
+            <h2 class="section__heading text-center">About</h2>
+          <span class="sock"> <img src="assets/images/rails.png" class="img-fluid" alt="sock image"></span>
+          <div class="section-text white-border row">
+              <div class="col-lg-4 col-md-4 col-sm-3 mx-auto my-auto text-center">
+                  <i class="fa fa-info-circle giant" aria-hidden="true"></i>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-9 mx-auto">
+              <p>
+                  <span class="beautiful-font">Bind The Gap</span> is a monthly magazine about <b>Haskell</b> and <b>Functional Programming</b> in general.
+              </p>
+              <p>
+              It discusses hot news in the Haskell ecosystem, describes recent events, educates about FP concepts, and provides a view on diverse language areas from experienced Haskell users and active community members.
+              </p>
+              <p>
+                  <a href="#subscribe" >Subscribe</a> to our mailing list to receive the pilot issue for free when it's ready!
+              </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!--  -->
+  <section class="section-general section" id="authors">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-4 col-sm-12 mx-auto text-center">
-        <h2 class="section__heading">Contact Us</h2>
-        <div class="">
-        <p>You can reach us by messaging on Twitter:
-            <a href="https://twitter.com/bind_the_gap" target=_blank>@bind_the_gap</a>
-            <a href="https://twitter.com/kowainik" target=_blank>@kowainik</a>
-            <a href="https://twitter.com/vrom911" target=_blank>@vrom911</a>
-            <a href="https://twitter.com/chshersh" target=_blank>@chshersh</a>
-        </p>
-
-        <p> Or by writing an email to <i>xrom.xkov@gmail.com</i></p>
+      <div class="col-lg-8 col-md-8 col-sm-12 mx-auto text-center">
+        <h2 class="section__heading">Authors</h2>
+        <span class="sock"> <img src="assets/images/rails.png" class="img-fluid" alt="sock image"></span>
+    </div>
+<div class="col-12">
+        <div id="slider-1" class="owl-theme owl-carousel row mt-5">
+          <div class="item">
+            <figure class="m-0 my-auto">
+                <div class="photo">
+                <img src="assets/images/authors/dmitrii.jpg" class="img-fluid" alt="image">
+                </div>
+              <div class="section-general__content d-flex justify-content-center align-items-center flex-column">
+                <h3>Dmitrii Kovanikov</h3>
+                <p>Haskeller, Quantitative Developer</p>
+                <a href="https://kodimensional.dev/" target="_blank" class="button">Learn more</a>
+              </div>
+            </figure>
+          </div>
+          <div class="item">
+            <figure class="m-0">
+              <div class="photo">
+              <img src="assets/images/authors/veronika.jpg" class="img-fluid" alt="image">
+              </div>
+              <div class="section-general__content d-flex justify-content-center align-items-center flex-column">
+                <h3>Veronika Romashkina</h3>
+                <p>Haskeller, Software Engineer</p>
+                <a href="https://vrom911.github.com/" target="_blank" class="button">Learn more</a>
+              </div>
+            </figure>
+          </div>
+          <div class="item">
+              <figure class="m-0 my-auto">
+                  <div class="photo">
+                  <img src="assets/images/authors/placeholder.png" class="img-fluid" alt="image">
+                  </div>
+                  <div class="section-general__content d-flex justify-content-center align-items-center flex-column">
+                      <h3>You</h3>
+                      <p>Write us to collaborate ;)</p>
+                      <a href="https://kowainik.github.io/" target="_blank" class="button">Learn more</a>
+                  </div>
+              </figure>
+          </div>
+        </div>
       </div>
+    </div>
+    </div>
+  </div>
+  <div id="escalator"><svg viewBox="0 0 12 6"><polygon id="logo" fill="grey" >
+      <animate begin="0s" dur="2s" repeatCount="indefinite" keyTimes="0;1" attributeName="points"
+          values="
+                 12,0 10,0 10,1 8,1 8,2 6,2 6,3 4,3 4,4 2,4 2,5 0,5 0,6 0,6 0,6 12,6;
+                 12,0 12,0 12,0 10,0 10,1 8,1 8,2 6,2 6,3 4,3 4,4 2,4 2,5 0,5 0,6 12,6
+                 "/>
+      </polygon></svg></div>
+</section>
+
+ <!-- Issues  -->
+<section class="section-general section dark-bg bg-banner" id="issues">
+   <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-12 mx-auto text-center">
+        <h2 class="section__heading">Issues</h2>
+        <span class="sock"> <img src="assets/images/rails.png" class="img-fluid" alt="sock image"></span>
+        <div class="dark-bg">
+        <p>Stay tuned! Our first issue is almost there!</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+        </div>
+    </div>
+      <div class="row text-center">
+        <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+          <div class="about__column row">
+              <div class="col-lg-4 col-md-4 col-sm-12 mt-5">
+                <div class="book-container"> <div class="book"> <img alt="Bind The Gap Issue #1" src="assets/images/bindthegap-logo.png" /> </div> </div>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 mt-5">
+                  <h3 class="beautiful-font">Issue #1</h3>
+            <p>Coming soon</p>
+            <a href="#" class="button text-uppercase disabled">Download</a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- Contact us -->
+<section class="section contact-us" id="subscribe">
+  <div class="container border-rails">
+    <div class="row">
+      <div class="col-lg-8 col-md-4 col-sm-12 mx-auto text-center">
+        <h2 class="section__heading">Subscribe</h2>
+        <span class="sock"> <img src="assets/images/rails.png" class="img-fluid" alt="sock image"></span>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- Begin Mailchimp Signup Form -->
+      <div  id="mc_embed_signup" class="col-lg-8 col-md-6 col-sm-12 mt-5 text-center">
+    <form action="https://news.us2.list-manage.com/subscribe/post?u=af5d0411175f11e83618abf5e&amp;id=b04a7ed805" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"  role="form" novalidate>
+    <div id="mc_embed_signup_scroll">
+       <div class="mc-field-group form-group">
+         <label for="mce-EMAIL">Email Address<span class="asterisk">*</span></label>
+         <input type="email" value="" name="EMAIL" placeholder="Email" class="form-control required email" id="mce-EMAIL">
+       </div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_af5d0411175f11e83618abf5e_b04a7ed805" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button mt-5"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-5 col-md-6 col-sm-12 mt-5">
+        <div class="contact-us__column clearfix mt-2">
+          <figure class="float-left m-0">
+            <img src="assets/images/station-red.png" alt="image" class="img-fluid">
+          </figure>
+          <ul class="list-unstyled float-right">
+            <li>Support: <span class="contact-us__address-text">xrom.xkov@gmail.com</span></li>
+          </ul>
+        </div>
+        <div class="contact-us__column clearfix mt-2">
+            <figure class="float-left m-0">
+                <img src="assets/images/station-orange.png" alt="image" class="img-fluid">
+            </figure>
+            <ul class="list-unstyled float-right">
+                <li>Twitter: <a href="https://twitter.com/bind_the_gap" target=_blank>@bind_the_gap</a></li>
+            </ul>
+        </div>
+        <div class="contact-us__column clearfix mt-2">
+            <figure class="float-left m-0">
+                <img src="assets/images/station-pink.png" alt="image" class="img-fluid">
+            </figure>
+            <ul class="list-unstyled float-right">
+                <li>Twitter: <a href="https://twitter.com/kowainik" target=_blank>@kowainik</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6 col-sm-12 mt-5">
+        <div class="contact-us__column clearfix mt-2">
+            <figure class="float-left m-0">
+                <img src="assets/images/station-yellow.png" alt="image" class="img-fluid">
+            </figure>
+            <ul class="list-unstyled float-right">
+                <li>Twitter: <a href="https://twitter.com/chshersh" target=_blank>@chshersh</a></li>
+            </ul>
+        </div>
+        <div class="contact-us__column clearfix mt-2">
+            <figure class="float-left m-0">
+                <img src="assets/images/station-green.png" alt="image" class="img-fluid">
+            </figure>
+            <ul class="list-unstyled float-right">
+                <li>Twitter: <a href="https://twitter.com/vrom911" target=_blank>@vrom911</a></li>
+            </ul>
+        </div>
+        <div class="contact-us__column clearfix mt-2">
+          <figure class="float-left mb-4">
+            <img src="assets/images/station-purple.png" alt="image" class="img-fluid">
+          </figure>
+          <ul class="list-unstyled float-right">
+            <li>Office: <span class="contact-us__address-text">London, UK</span></li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -163,20 +354,42 @@
 </section>
 
 <!-- Footer -->
+<section class="mind-the-gap" id="mind-the-gap">
+    <div class="container">
+        <div class="row mind">
+            <div class="col-lg-8 col-md-8 col-sm-12 mx-auto text-center">
+                <h2> Mind the Gap</h2>
+            </div>
+        </div>
+    </div>
+    <div class="yellow-bg"> </div>
+</section>
+
 <footer class="footer" id="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-12 mx-auto text-center">
-          <p>Copyright &copy; <a href="https://kowainik.github.io">Kowainik</a> 2020</p>
+          <p>Copyright &copy; Bind The Gap 2020</p>
           <p class="beautiful-font">Created with <i class="fas fa-heart"> </i> by <a href="https://kowainik.github.io">Kowainik</a></p>
       </div>
     </div>
 
   </div>
 </footer>
+
+<div class="control-points-section">
+ <ul class="list-unstyled">
+   <li><a href="#home" data-toggle="elementscroll"><span>Home</span></a></li>
+   <li><a href="#about" data-toggle="elementscroll"><span>About</span></a></li>
+   <li><a href="#authors" data-toggle="elementscroll"><span>Authors</span></a></li>
+   <li><a href="#issues" data-toggle="elementscroll"><span>Issues</span></a></li>
+   <li><a href="#subscribe" data-toggle="elementscroll"><span>Subscribe</span></a></li>
+ </ul>
+</div>
     </main>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"> </script>
+<script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/custom.js"></script>
 </html>
