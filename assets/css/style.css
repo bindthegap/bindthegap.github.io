@@ -11,6 +11,7 @@ body {
 }
 header, main, nav, #home {width: 100%;max-width: 100%;}
 
+.logo {height: 50px; width:auto;}
 .navbar {border-style: none !important;
   width: 100%;
   height: 50px;
@@ -18,6 +19,8 @@ header, main, nav, #home {width: 100%;max-width: 100%;}
   background-color: #3dbcf3;
   font-family: 'SaucerBB';
 }
+.navbar-brand {color: #fff;}
+.navbar-brand:hover {color: #fafaca;}
 .nav-parent{
     width: 100%; height: 100%; padding: 0 !important;
     position: relative;
@@ -222,6 +225,15 @@ a:focus {text-decoration: none;}
   z-index: 1;
 }
 .dark-bg .section__heading{color: #ffffff;}
+.light-bg {
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: #fff;
+    color: #3dbcf3;
+    padding-bottom: 2%;
+    position: relative;
+    z-index: 1;
+}
 
 .section-general figure {
   overflow: hidden;
@@ -276,7 +288,7 @@ a:focus {text-decoration: none;}
   font-size: 16px;
   padding: 9px 40px;
 }
-
+.issue .button {font-size:1rem; padding:0.5rem;}
 .contact-us {
   background-color: #ffffff;
 }
